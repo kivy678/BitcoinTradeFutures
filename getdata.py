@@ -40,7 +40,7 @@ if __name__ == '__main__':
         pprint.pprint(resp['rateLimits'])
 
         for symbol in resp['symbols']:
-            if symbol['pair'] == 'BTCUSDT' and symbol['contractType'] == 'PERPETUAL':
+            if symbol['pair'] == 'ETHUSDT' and symbol['contractType'] == 'PERPETUAL':
                 pprint.pprint(symbol)
 
 
